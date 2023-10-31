@@ -34,7 +34,7 @@ public class PassParameters {
 
         List<WebElement> cars=driver.findElements(By.className("breakWord"));
 
-        String car=cars.get(2).getText();
+        String car=cars.get(0).getText();
 
         this.car_item=car.replace("BMW X6M 2020 in Amman","BMW");
     }
